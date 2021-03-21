@@ -1,11 +1,23 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-dark-color: #2f303a;
+  --background-light-color: #f5f4fa;
+  --logo-text-color: #000000;
+  --transparent-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 
 /* Header */
@@ -15,10 +27,10 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  color: #000;
+  color: var(--logo-text-color);
 }
 .logo-half {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigation-menu,
 .contact-list {
@@ -28,65 +40,131 @@ body {
 }
 .link {
   text-decoration: none;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .nav-link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* /Header */
 
+/* Main content */
+/* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-dark-color);
+  color: var(--primary-white-color);
 }
-.hero-head {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
 }
 .hero-button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
+/* /Hero */
+
+/* About features section */
 .feature {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
-.services section {
-  background-color: #e5e5e5;
-}
+/* /About features section */
 
+/* About services section */
 .service {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--title-text-color);
 }
+/* /About services section */
 
+/* About team section */
 .team-section {
   font-size: 16px;
   line-height: 1.2;
-  background-color: #f5f4fa;
+  background-color: var(--background-light-color);
 }
-.team {
+.team-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--title-text-color);
 }
 .team-member {
   font-weight: 500;
-  color: #212121;
+  font-size: 16px;
+  color: var(--title-text-color);
 }
+/* /About team section */
+/* /Main content */
+
+/* Portfolio content */
+/* Portfolio filter */
+.btn-filter {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: var(--background-light-color);
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/* /Portfolio filter */
+
+/* Portfolio menu */
+.portfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-menu {
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* /Portfolio menu */
+/* /Portfolio content */
+
+/* /Footer */
+.footer-section {
+  background-color: var(--background-dark-color);
+}
+.footer-logo,
+.location {
+  color: var(--primary-white-color);
+}
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--transparent-color);
+}
+/* пришлось переназначить глобально заданные
+стили, потому что в селекторе классов ".navigation-menu,"
+и ".contact-list" в хедере уже были назначены другие стили (hover, focus), 
+которые также относятся к этой секции */
+
+/* /Footer */
