@@ -20,6 +20,45 @@ body {
   color: var(--primary-text-color);
 }
 
+/* Селекторы элементов и классов с повторяющимися значениями */
+h2,
+h3,
+a.nav-link,
+.btn-filter {
+  color: var(--title-text-color);
+}
+.hero-button:hover,
+.hero-button:focus,
+.btn-filter:hover,
+.btn-filter:focus,
+.hero,
+.footer-section .footer-logo,
+.location {
+  color: var(--primary-white-color);
+}
+
+.logo-half,
+.link:hover,
+.link:focus,
+.hero-button {
+  color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus,
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--accent-color);
+}
+.hero,
+.footer-section {
+  background-color: var(--background-dark-color);
+}
+.team-section,
+.btn-filter {
+  background-color: var(--background-light-color);
+}
+/* /Селекторы элементов и классов с повторяющимися значениями */
+
 /* Header */
 .logo {
   font-family: Raleway;
@@ -28,9 +67,6 @@ body {
   line-height: 1.2;
   text-decoration: none;
   color: var(--logo-text-color);
-}
-.logo-half {
-  color: var(--accent-color);
 }
 .navigation-menu,
 .contact-list {
@@ -42,21 +78,10 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.nav-link {
-  color: var(--title-text-color);
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
 /* /Header */
 
 /* Main content */
 /* Hero */
-.hero {
-  background-color: var(--background-dark-color);
-  color: var(--primary-white-color);
-}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -70,12 +95,9 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   background-color: var(--primary-white-color);
-  color: var(--accent-color);
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
   cursor: pointer;
 }
 /* /Hero */
@@ -86,7 +108,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--title-text-color);
 }
 /* /About features section */
 
@@ -95,7 +116,6 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
-  color: var(--title-text-color);
 }
 /* /About services section */
 
@@ -103,18 +123,15 @@ body {
 .team-section {
   font-size: 16px;
   line-height: 1.2;
-  background-color: var(--background-light-color);
 }
 .team-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
-  color: var(--title-text-color);
 }
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  color: var(--title-text-color);
 }
 /* /About team section */
 /* /Main content */
@@ -128,14 +145,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  background-color: var(--background-light-color);
-  color: var(--title-text-color);
   cursor: pointer;
-}
-.btn-filter:hover,
-.btn-filter:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
 }
 /* /Portfolio filter */
 
@@ -145,7 +155,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-text-color);
 }
 .portfolio-menu {
   font-size: 16px;
@@ -155,13 +164,7 @@ body {
 /* /Portfolio content */
 
 /* /Footer */
-.footer-section {
-  background-color: var(--background-dark-color);
-}
-.footer-logo,
-.location {
-  color: var(--primary-white-color);
-}
+
 .contact-footer {
   font-size: 14px;
   line-height: 1.71;
