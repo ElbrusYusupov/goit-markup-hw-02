@@ -15,8 +15,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
 /* Селекторы элементов и классов с повторяющимися значениями */
