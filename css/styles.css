@@ -166,6 +166,7 @@ a.current {
 
 /* Footer */
 p.location {
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
