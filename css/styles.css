@@ -165,7 +165,7 @@ a.current {
 /* /Portfolio content */
 
 /* Footer */
-.location address {
+address.location {
   font-style: normal;
 }
 .contact-footer a {
