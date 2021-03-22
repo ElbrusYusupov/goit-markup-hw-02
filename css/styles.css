@@ -173,9 +173,4 @@ a.current {
   letter-spacing: 0.03em;
   color: var(--transparent-color);
 }
-/* пришлось переназначить глобально заданные
-стили, потому что в селекторе классов ".navigation-menu,"
-и ".contact-list" в хедере уже были назначены другие стили (hover, focus), 
-которые также относятся к этой секции */
-
 /* /Footer */
