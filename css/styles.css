@@ -27,8 +27,12 @@ a.nav-link,
 .btn-filter {
   color: var(--title-text-color);
 }
-.hero-button:hover,
-.hero-button:focus,
+
+ul {
+  list-style-type: none;
+}
+.hero-button,
+.hero-button,
 .btn-filter:hover,
 .btn-filter:focus,
 .hero,
@@ -39,12 +43,11 @@ a.nav-link,
 
 .logo-half,
 .link:hover,
-.link:focus,
-.hero-button {
+.link:focus {
   color: var(--accent-color);
 }
-.hero-button:hover,
-.hero-button:focus,
+.hero-button,
+.hero-button,
 .btn-filter:hover,
 .btn-filter:focus {
   background-color: var(--accent-color);
@@ -60,6 +63,7 @@ a.nav-link,
 /* /Селекторы элементов и классов с повторяющимися значениями */
 
 /* Header */
+
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -74,10 +78,14 @@ a.nav-link,
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+a.current {
+  color: var(--accent-color);
+}
 .link {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+
 /* /Header */
 
 /* Main content */
@@ -94,7 +102,6 @@ a.nav-link,
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  background-color: var(--primary-white-color);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -163,9 +170,10 @@ a.nav-link,
 /* /Portfolio menu */
 /* /Portfolio content */
 
-/* /Footer */
-
-.contact-footer {
+/* Footer */
+.contact-footer a {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
