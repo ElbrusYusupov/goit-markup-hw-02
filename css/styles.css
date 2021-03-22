@@ -8,7 +8,6 @@
   --logo-text-color: #000000;
   --transparent-color: rgba(255, 255, 255, 0.6);
 }
-
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -40,10 +39,10 @@ ul {
 .location {
   color: var(--primary-white-color);
 }
-
 .logo-half,
 .link:hover,
-.link:focus {
+.link:focus,
+a.current {
   color: var(--accent-color);
 }
 .hero-button,
@@ -63,7 +62,6 @@ ul {
 /* /Селекторы элементов и классов с повторяющимися значениями */
 
 /* Header */
-
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -78,14 +76,10 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-a.current {
-  color: var(--accent-color);
-}
 .link {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-
 /* /Header */
 
 /* Main content */
