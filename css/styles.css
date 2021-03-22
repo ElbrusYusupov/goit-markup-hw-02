@@ -165,7 +165,7 @@ a.current {
 /* /Portfolio content */
 
 /* Footer */
-.location p {
+p.location {
   font-style: normal;
   font-weight: normal;
 }
